@@ -1,128 +1,372 @@
 const data: Record<TProductId, TProduct> = {
-  '2zd33b8c': {
-    name: 'Maluma Hass Avocado',
-    id: '2zd33b8c',
-    sku: 'NUR72KCM',
-    price: 1.15,
-    image: '/images/maluma.jpg',
+  '11149': {
+    name: 'Boxcar',
+    id: '11149',
+    sku: '11149',
+    price: 3.0608327037851115,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/pwgtpa1504366376.jpg',
     attributes: {
       description:
-        'A relatively new cultivar, it was, the pretty boy baby, discovered in South Africa in the early 1990s by Mr. A.G. (Dries) Joubert. Maluma Babyy. It is a chance seedling of unknown parentage',
-      shape: 'Oval',
-      hardiness: '1 °C',
-      taste: 'Catchy, is an avocado',
+        'In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.',
+      shape: 'Ordinary Drink',
+      hardiness: '1 1/2 oz ',
+      taste: 'Gin',
     },
   },
-  '6trfgkkj': {
-    name: 'Fuerte Avocado',
-    id: '6trfgkkj',
-    sku: 'AX4M8SJV',
-    price: 1.21,
-    image: '/images/fuerte.jpg',
+  '11872': {
+    name: 'Orgasm',
+    id: '11872',
+    sku: '11872',
+    price: 9.935573820957956,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg',
     attributes: {
       description:
-        'The Fuerte avocado is the second largest commercial variety behind Hass. It is a long time California commercial variety valued for its winter season ripening and its B-Type blossom type which most growers plant adjacent to the Hass for a more consistent production cycle. This avocado tends to produce heavily in alternate years.',
-      shape: 'Pear',
-      hardiness: '-1 °C',
-      taste: 'Magnificent, is a strong avocado',
+        'Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.',
+      shape: 'Ordinary Drink',
+      hardiness: '1/2 oz white ',
+      taste: 'Creme de Cacao',
     },
   },
-  '7bcr49em': {
-    name: 'Gwen Hass Avocado',
-    id: '7bcr49em',
-    sku: 'HYA78F6J',
-    price: 1.25,
-    image: '/images/gwen.jpg',
+  '12764': {
+    name: 'Karsk',
+    id: '12764',
+    sku: '12764',
+    price: 1.269863619593227,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/808mxk1487602471.jpg',
     attributes: {
       description:
-        "A seedling bred from 'Hass' x 'Thille' in 1982, 'Gwen' is higher yielding and more dwarfing than 'Hass' in California. The fruit has an oval shape, slightly smaller than 'Hass' (100–200 g or 3.5–7.1 oz), with a rich, nutty flavor. The skin texture is more finely pebbled than 'Hass', and is dull green when ripe. It is frost-hardy down to −1 °C (30 °F)",
-      shape: 'Plump',
-      hardiness: '−1 °C',
-      taste: 'Superb, is an avocado',
+        'Put a copper coin in a coffe-cup and fill up with coffee until you no longer see the coin, then add alcohol until you see the coin. Norwegian speciality.',
+      shape: 'Ordinary Drink',
+      hardiness: '1 part ',
+      taste: 'Coffee',
     },
   },
-  '098323ks': {
-    name: 'Bacon Avocado',
-    id: '098323ks',
-    sku: 'BXD100BLK',
-    price: 1.51,
-    image: '/images/bacon.jpg',
+  '12776': {
+    name: 'Melya',
+    id: '12776',
+    sku: '12776',
+    price: 6.1475458869914785,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/xwtptq1441247579.jpg',
     attributes: {
       description:
-        'Developed by a farmer, James Bacon, in 1954, Bacon has medium-sized fruit with smooth, green skin with yellow-green, light-tasting flesh. When ripe, the skin remains green, but darkens slightly, and fruit yields to gentle pressure. It is cold-hardy down to −5 °C (23 °F)',
-      shape: 'Oval',
-      hardiness: '−5 °C',
-      taste: 'Creamy, is an avocado',
+        'Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.',
+      shape: 'Coffee / Tea',
+      hardiness: '1 oz',
+      taste: 'Espresso',
     },
   },
-  b8uthe2y: {
-    name: 'Hass Avocado',
-    id: 'b8uthe2y',
-    sku: 'RMRCZN7E',
-    price: 1.39,
-    image: '/images/hass.jpg',
+  '13332': {
+    name: 'B-53',
+    id: '13332',
+    sku: '13332',
+    price: 10.599168517891181,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/rwqxrv1461866023.jpg',
     attributes: {
       description:
-        "The 'Hass' is the most common cultivar of avocado. It produces fruit year-round and accounts for 80% of cultivated avocados in the world.[21][55] All 'Hass' trees are descended from a single 'mother tree' raised by a mail carrier named Rudolph Hass, of La Habra Heights, California.[20][55] Hass patented the productive tree in 1935. The 'mother tree', of uncertain subspecies, died of root rot and was cut down in September 2002.[21][55][56] 'Hass' trees have medium-sized (150–250 g or 5.3–8.8 oz), ovate fruit with a black, pebbled skin. The flesh has a nutty, rich flavor with 19% oil. A hybrid Guatemalan type can withstand temperatures to −1 °C (30 °F)",
-      shape: 'Oval',
-      hardiness: '−1 °C',
-      taste: 'Gorgeous, is an avocado',
+        'Layer the Kahlua, Sambucca and Grand Marnier into a shot glas in that order. Better than B-52',
+      shape: 'Shot',
+      hardiness: '1/3 shot ',
+      taste: 'Kahlua',
     },
   },
-  ewxsd6xb: {
-    name: 'Lamb Hass Avocado',
-    id: 'ewxsd6xb',
-    sku: 'N55229ZA',
-    price: 1.34,
-    image: '/images/lamb.jpg',
+  '13501': {
+    name: 'ABC',
+    id: '13501',
+    sku: '13501',
+    price: 4.544027033093937,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/tqpvqp1472668328.jpg',
     attributes: {
-      description:
-        'The Lamb Hass avocado is a cross between a Hass and Gwen avocado. The fruits are larger in size and later maturing than Hass. It is gaining in popularity as a commercial and backyard variety due to its exceptional flavor and easy peeling qualities. The tree has an upright, compact habit.',
-      shape: 'Obovate',
-      hardiness: '-2 °C',
-      taste: 'Great, is an avocado',
+      description: 'Layered in a shot glass.',
+      shape: 'Shot',
+      hardiness: '1/3 ',
+      taste: 'Amaretto',
     },
   },
-  fpr72m9k: {
-    name: 'Pinkerton Avocado',
-    id: 'fpr72m9k',
-    sku: 'B4HZ42TM',
-    price: 1.27,
-    image: '/images/pinkerton.jpg',
+  '13938': {
+    name: 'AT&T',
+    id: '13938',
+    sku: '13938',
+    price: 4.334734829416526,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg',
     attributes: {
-      description:
-        "First grown on the Pinkerton Ranch in Saticoy, California, in the early 1970s, 'Pinkerton' is a seedling of 'Hass' x 'Rincon'. The large fruit has a small seed, and its green skin deepens in color as it ripens. The thick flesh has a smooth, creamy texture, pale green color, good flavor, and high oil content. It shows some cold tolerance, to −1 °C (30 °F) and bears consistently heavy crops. A hybrid Guatemalan type, it has excellent peeling characteristics",
-      shape: 'Long pear',
-      hardiness: '−1 °C',
-      taste: 'Marvelous, is an avocado',
+      description: 'Pour Vodka and Gin over ice, add Tonic and Stir',
+      shape: 'Ordinary Drink',
+      hardiness: '1 oz ',
+      taste: 'Absolut Vodka',
     },
   },
-  t9dv25gs: {
-    name: 'Reed Avocado',
-    id: 't9dv25gs',
-    sku: 'ZY3T9XXC',
-    price: 1.18,
-    image: '/images/reed.jpg',
+  '14229': {
+    name: '747',
+    id: '14229',
+    sku: '14229',
+    price: 1.8053551514888002,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/xxsxqy1472668106.jpg',
     attributes: {
       description:
-        'Developed from a chance seedling found in 1948 by James S. Reed in California, this cultivar has large, round, green fruit with a smooth texture and dark, thick, glossy skin. Smooth and delicate, the flesh has a slightly nutty flavor. The skin ripens green. A Guatemalan type, it is hardy to −1 °C (30 °F). Tree size is about 5 by 4 m (16.4 by 13.1 ft)',
-      shape: 'Round',
-      hardiness: '−1 °C',
-      taste: 'Exquisite, is an avocado',
+        'pour kaluha, then Baileys, then Frangelico not chilled and not layered -- SERVE!!!',
+      shape: 'Shot',
+      hardiness: '1/3 part ',
+      taste: 'Kahlua',
     },
   },
-  t345w48y: {
-    name: 'Zutano Avocado',
-    id: 't345w48y',
-    sku: 'MW79ZZ6Y',
-    price: 1.25,
-    image: '/images/zutano.jpg',
+  '14598': {
+    name: '50/50',
+    id: '14598',
+    sku: '14598',
+    price: 3.1597059928168405,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/wwpyvr1461919316.jpg',
     attributes: {
       description:
-        'The Zutano avocado is a cold hardy, consistent producing avocado variety. It resembles the Fuerte in appearance but is less flavorful but more cold hardy. The green fruits are obovate in shape with waxy bumps on the skin. The flesh has a low oil but high water content which causes it to have a more fibrous texture.',
-      shape: 'Pear',
-      hardiness: '-5 °C',
-      taste: 'Splendid, is an avocado',
+        'fill glass with crushed ice. Add vodka. Add a splash of grand-marnier. Fill with o.j.',
+      shape: 'Ordinary Drink',
+      hardiness: '2 1/2 oz ',
+      taste: 'Vanilla vodka',
+    },
+  },
+  '14610': {
+    name: 'ACID',
+    id: '14610',
+    sku: '14610',
+    price: 7.365162143801129,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/xuxpxt1479209317.jpg',
+    attributes: {
+      description:
+        'Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.',
+      shape: 'Shot',
+      hardiness: '1 oz Bacardi ',
+      taste: '151 proof rum',
+    },
+  },
+  '15288': {
+    name: '252',
+    id: '15288',
+    sku: '15288',
+    price: 8.737318582162576,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/rtpxqw1468877562.jpg',
+    attributes: {
+      description:
+        'Add both ingredients to shot glass, shoot, and get drunk quick',
+      shape: 'Shot',
+      hardiness: '1/2 shot Bacardi ',
+      taste: '151 proof rum',
+    },
+  },
+  '15328': {
+    name: 'Zorro',
+    id: '15328',
+    sku: '15328',
+    price: 1.3284689639952432,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/kvvd4z1485621283.jpg',
+    attributes: {
+      description:
+        'add all and pour black coffee and add whipped cream on top.',
+      shape: 'Coffee / Tea',
+      hardiness: '2 cl ',
+      taste: 'Sambuca',
+    },
+  },
+  '15853': {
+    name: 'B-52',
+    id: '15853',
+    sku: '15853',
+    price: 8.924242305745475,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/5a3vg61504372070.jpg',
+    attributes: {
+      description: 'Layer ingredients into a shot glass. Serve with a stirrer.',
+      shape: 'Shot',
+      hardiness: '1/3 ',
+      taste: 'Baileys irish cream',
+    },
+  },
+  '15997': {
+    name: 'GG',
+    id: '15997',
+    sku: '15997',
+    price: 9.844335225197483,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/vyxwut1468875960.jpg',
+    attributes: {
+      description:
+        'Pour the Galliano liqueur over ice. Fill the remainder of the glass with ginger ale and thats all there is to it. You now have a your very own GG.',
+      shape: 'Ordinary Drink',
+      hardiness: '2 1/2 shots ',
+      taste: 'Galliano',
+    },
+  },
+  '16262': {
+    name: 'H.D.',
+    id: '16262',
+    sku: '16262',
+    price: 10.984992256858863,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg',
+    attributes: {
+      description:
+        'Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.',
+      shape: 'Coffee / Tea',
+      hardiness: '4 cl ',
+      taste: 'Whisky',
+    },
+  },
+  '17141': {
+    name: 'Smut',
+    id: '17141',
+    sku: '17141',
+    price: 10.748272657446385,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg',
+    attributes: {
+      description: 'Throw it all together and serve real cold.',
+      shape: 'Punch / Party Drink',
+      hardiness: '1/3 part ',
+      taste: 'Red wine',
+    },
+  },
+  '17187': {
+    name: 'Derby',
+    id: '17187',
+    sku: '17187',
+    price: 10.408108015580034,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/52weey1606772672.jpg',
+    attributes: {
+      description:
+        'Pour all ingredients into a mixing glass with ice. Stir. Strain into a cocktail glass. Garnish with a sprig of fresh mint in the drink.',
+      shape: 'Ordinary Drink',
+      hardiness: '6 cl',
+      taste: 'gin',
+    },
+  },
+  '17203': {
+    name: 'Kir',
+    id: '17203',
+    sku: '17203',
+    price: 6.780363286497073,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg',
+    attributes: {
+      description:
+        'Add the crème de cassis to the bottom of the glass, then top up with wine.',
+      shape: 'Ordinary Drink',
+      hardiness: '1 part ',
+      taste: 'Creme de Cassis',
+    },
+  },
+  '17208': {
+    name: 'Rose',
+    id: '17208',
+    sku: '17208',
+    price: 1.072494781506658,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/8kxbvq1504371462.jpg',
+    attributes: {
+      description:
+        'Shake together in a cocktail shaker, then strain into chilled glass. Garnish and serve.',
+      shape: 'Ordinary Drink',
+      hardiness: '1/2 oz ',
+      taste: 'Dry Vermouth',
+    },
+  },
+  '17222': {
+    name: 'A1',
+    id: '17222',
+    sku: '17222',
+    price: 9.866257921762324,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg',
+    attributes: {
+      description:
+        'Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.',
+      shape: 'Cocktail',
+      hardiness: '1 3/4 shot ',
+      taste: 'Gin',
+    },
+  },
+  '17225': {
+    name: 'Ace',
+    id: '17225',
+    sku: '17225',
+    price: 2.576909994777631,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg',
+    attributes: {
+      description:
+        'Shake all the ingredients in a cocktail shaker and ice then strain in a cold glass.',
+      shape: 'Cocktail',
+      hardiness: '2 shots ',
+      taste: 'Gin',
+    },
+  },
+  '17254': {
+    name: 'Bijou',
+    id: '17254',
+    sku: '17254',
+    price: 8.3087293106639,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/rysb3r1513706985.jpg',
+    attributes: {
+      description: 'Stir in mixing glass with ice and strain\r\n',
+      shape: 'Cocktail',
+      hardiness: '1 dash',
+      taste: 'Orange Bitters',
+    },
+  },
+  '17833': {
+    name: 'A. J.',
+    id: '17833',
+    sku: '17833',
+    price: 10.578665557266932,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/l74qo91582480316.jpg',
+    attributes: {
+      description:
+        'Shake ingredients with ice, strain into a cocktail glass, and serve.',
+      shape: 'Ordinary Drink',
+      hardiness: '1 1/2 oz ',
+      taste: 'Applejack',
+    },
+  },
+  '17837': {
+    name: 'Adam',
+    id: '17837',
+    sku: '17837',
+    price: 10.503667489742496,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg',
+    attributes: {
+      description:
+        'In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.',
+      shape: 'Ordinary Drink',
+      hardiness: '2 oz ',
+      taste: 'Dark rum',
+    },
+  },
+  '17839': {
+    name: 'Affair',
+    id: '17839',
+    sku: '17839',
+    price: 3.913891048719539,
+    image:
+      'https://www.thecocktaildb.com/images/media/drink/h5za6y1582477994.jpg',
+    attributes: {
+      description:
+        'Pour schnapps, orange juice, and cranberry juice over ice in a highball glass. Top with club soda and serve.',
+      shape: 'Ordinary Drink',
+      hardiness: '2 oz ',
+      taste: 'Strawberry schnapps',
     },
   },
 }
