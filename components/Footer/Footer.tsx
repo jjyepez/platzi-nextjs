@@ -36,11 +36,12 @@ const Footer = () => (
             </List>
           </Grid.Column>
           <Grid.Column width={7}>
-            <Header as="h4">Hecho para</Header>
+            <Header as="h4">Hecho por</Header>
             <p>
-              <a href="https://platzi.com/">Platzi y su curso de Next.JS</a> de
-              Platzi dictado por{' '}
-              <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a>
+              <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a> para{' '}
+              <a href="https://platzi.com/">Platzi</a>
+              <br />
+              mod by <a href="https://twitter.com/jjyepez">@jjyepez</a>
             </p>
             <List horizontal style={{ display: 'flex' }}>
               <List.Item
@@ -77,22 +78,22 @@ const Footer = () => (
           </a>
         </p>
         <p className="colophon-entry">
-          Avocado images taken from{' '}
+          Drink images taken from{' '}
           <a
             className="acnor"
             target="_blank"
-            href="https://www.californiaavocado.com/avocado101/avocado-varieties"
+            href="https://www.thecocktaildb.com/drink/"
             title="California Avocado"
           >
-            Avocado 101
+            TheCocktailDB.com
           </a>
           {' at '}
           <a
             target="_blank"
-            href="https://www.californiaavocado.com"
-            title="Flaticon"
+            href="https://TheCocktailDB.com"
+            title="TheCocktailDB.com"
           >
-            California Avocado
+            TheCocktailDB.com
           </a>
         </p>
       </div>
