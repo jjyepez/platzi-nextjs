@@ -4,48 +4,77 @@ import Layout from '@components/Layout/Layout'
 
 const avoFacts = [
   {
-    title: 'Most avocados come from Mexico',
+    title: 'Mojitos come from Cuba',
     content:
-      'While avocados are grown in California and Florida, the majority sold in grocery stores come from south central Mexico. The main reason for the abundance of “south of the border” avocados is that Mexico is blessed with a year-round growing climate. The avocado is believed to have originated in the state of Puebla, Mexico, as far back as 10,000 B.C.',
+      'If you have ever visited Cuba before you will see first-hand just how much Cubans love mojitos. It pairs perfectly with authentic Cuban cuisine.',
   },
   {
-    title: 'The conquistadors were huge fans.',
+    title: 'Earnest Hemmingway loved mojitos',
     content:
-      'Spanish explorers arriving in Mexico during the 16th century survived on avocados and were the first Europeans to consume them. As a result of the Spanish Conquest, avocados spread to South America and Central America. ',
+      'Sure, the famed author was known for loving a lot of different types of drinks, but the writer was particularly found of mojitos, especially after all of the time that he spent in Cuba.',
   },
   {
-    title: '“Avocado” wasn’t its original name.',
+    title: 'This drink is more than 500 years old',
     content:
-      'Irishman Sir Hans Sloane called it an avocado in 1696 in a Jamaican-plants catalog. He also dubbed the avocado tree the “alligator pear tree.”',
+      'The mojito is one of the oldest mixed drinks that is still consumed today. While the exact history of this cocktail is still a little murky, it is estimated that it first originated in the 1500s.',
   },
   {
-    title: 'It’s actually a fruit.',
+    title: 'The name has roots in African language',
     content:
-      'Did you know that an avocado is a fruit? While definitely not sweet, it falls firmly in the fruit-not the vegetable-family. That’s because the avocado tree is part of the flowering-plant family Lauraceae.',
+      'The name mojito comes from the word “mojo” which means talisman or magic charm. Some believe that the name actually came from African slaves who worked in Cuba.',
   },
   {
-    title: 'There’s a secret trick to ripening them up quick',
+    title: 'The mojito used to be used for medicinal purposes',
     content:
-      'Need to ripen that avocado ASAP? Place it in a brown paper bag with a banana or two. The bananas will release ethylene gas, a natural plant hormone that aids in ripening fruit. On the other hand, check out this guide to learn how to store them for later.',
+      'Pirates used to actually create a drink with sugar lime, mint and aguardiente (early rum) for medicinal purposes to treat scurvy and dysentery. When aguardiente was switched out for real rum, the classic mojito officially made its debut!',
   },
-]
+  {
+    title: 'You can thank James Bond for their recent resurgence in popularity',
+    content:
+      'In the 2002 movie Die Another Day, James Bond and Jinx enjoy a mojito beachside, and the now famous scene with Halle Berry and Pierce Brosnan helped bring this drink back in terms of popularity. In fact there was a noticeable spike in mojito sales when the movie came out.',
+  },
+  {
+    title: 'They’re big outside of Cuba',
+    content:
+      'Most Americans know about mojitos, but many people don’t realize that they are actually really popular in Poland and Great Britain.',
+  },
+  {
+    title: 'There are special mojito ice cubes',
+    content:
+      'Experts will tell you that normal ice cubes can melt and water down your mojito, which is why there are actually special mojito cubes that are made of water, sugar and lime juice that will help keep the flavor of the mojitos in tact.',
+  },
+  {
+    title: 'You can swap out flavors',
+    content:
+      'There are so many different variations of the mojito. Just swap out the lime for other fruits and you can make a fruity cocktail that is sure to impress.',
+  },
+  {
+    title: 'There are tequila mojitos too',
+    content:
+      'Since mojitos are very popular in Mexican and Cuban restaurants, many people started to make their mojitos with tequila. While they are supposed to be made with rum, this is a fresh and fun take on the cocktail that many people love.',
+  },
+].slice(0, 7)
 
 const AboutPage = () => {
   return (
     <Layout>
       <section>
         <Header as="h1" textAlign="center">
-          13 Surprising Facts About Avocados
+          7 Thinks you may not know about Mojitos
         </Header>
         <figure>
-          <Image src="/images/avocados.jpg" alt="Avocados on a table" />
+          <Image
+            width="100%"
+            src="/images/mojito-facts.jpg"
+            alt="Avocados on a table"
+          />
           <figcaption>
             Originally from{' '}
             <a
               target="_blank"
-              href="https://www.tasteofhome.com/article/13-surprising-facts-about-avocados/"
+              href="https://lionfishsd.com/10-things-you-may-not-know-about-mojitos/"
             >
-              Taste of Home
+              lionfishsd.com
             </a>
           </figcaption>
         </figure>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Menu, Container } from 'semantic-ui-react'
 
-import { Avocado } from '@components/SVGIcons'
+import { Mojito } from '@components/SVGIcons'
 import ShoppingCartIcon from './ShoppingCartIcon'
 import { useCart } from '@store/Cart'
 
@@ -19,8 +19,8 @@ const Navbar = () => {
             active={pathname === '/'}
             title="Inicio | Todos los productos"
           >
-            <Avocado />
-            Avo Store
+            <Mojito />
+            Drink Store
           </Menu.Item>
         </Link>
         <Menu.Menu position="right">

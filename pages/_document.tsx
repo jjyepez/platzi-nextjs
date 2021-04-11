@@ -3,12 +3,9 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html>
         <Head>
-          {/** FavIcon */}
-          {/** WebFont */}
-          {/** stylesheets */}
-          {/** scripts */}
+          <link rel="shortcut icon" href="images/mojito.svg" type="xml/svg" />
         </Head>
         <body className="my-body-class">
           <Main />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header, Transition } from 'semantic-ui-react'
 
-import { Avocado } from '@components/SVGIcons'
+import { Mojito } from '@components/SVGIcons'
 
 type AnimatedHeaderProps = {
   visible: boolean
@@ -22,9 +22,9 @@ const AnimatedHeader = ({
       duration={900}
       onComplete={onComplete}
     >
-      <Avocado size="58px" />
+      <Mojito size="58px" />
     </Transition>
-    Avo
+    Drinks
   </Header>
 )
 

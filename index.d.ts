@@ -16,14 +16,7 @@ type TProductAttributes = {
   taste: string
 }
 
-type TProduct = {
-  id: TProductId
-  name: string
-  sku: string
-  price: number
-  image: Url
-  attributes: TProductAttributes
-}
+type TProduct = any
 
 type TAPIAVODetailResponse = TProduct
 

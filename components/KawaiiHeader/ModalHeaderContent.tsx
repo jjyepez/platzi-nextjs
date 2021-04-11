@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Header } from 'semantic-ui-react'
 
-import { PosMeMuero } from '@components/SVGIcons'
+import { MojitoVacio } from '@components/SVGIcons'
 
 const ModalHeaderContent = () => {
   return (
@@ -9,11 +9,11 @@ const ModalHeaderContent = () => {
       <Grid columns={2}>
         <Grid.Row verticalAlign={'middle'}>
           <Grid.Column width="5">
-            <PosMeMuero size="154px" />
+            <MojitoVacio size="154px" />
           </Grid.Column>
           <Grid.Column width="11">
-            <Header as="h2">Mataste el aguacate</Header>
-            <p>Lo tocaste tanto que lo mataste.</p>
+            <Header as="h2">Te acabaste el trago.</Header>
+            <p>Lo tocaste tanto que lo vaciaste.</p>
             <p>
               Por otro lado, eres una persona muy curiosa y has descubierto
               esto. :)
