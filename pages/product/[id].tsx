@@ -4,21 +4,35 @@ import fetch from 'isomorphic-unfetch'
 
 import Layout from '@components/Layout/Layout'
 import ProductSummary from '@components/ProductSummary/ProductSummary'
+import { GetStaticProps } from 'next'
 
-const ProductPage = () => {
-  const { query } = useRouter()
-  const [product, setProduct] = useState<TProduct | null>(null)
+export const getStaticPaths = async () => {
+  const url = 'https://curso-nextjs-jjy.vercel.app/api/avo'
+  const response = await fetch(url)
+  const { data: productList }: TAPIAvoResponse = await response.json()
 
-  useEffect(() => {
-    if (query.id) {
-      fetch(`/api/avo/${query.id}`)
-        .then((response) => response.json())
-        .then((data: TProduct) => {
-          setProduct(data)
-        })
-    }
-  }, [query.id])
+  const paths = productList.map(({ id }) => ({
+    params: { id },
+  }))
 
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const id = params?.id as string
+  // se ejecuta en backend con nodejs al momento de crear el componente
+  let url = `https://curso-nextjs-jjy.vercel.app/api/avo/${id}`
+  let product: TProduct = await fetch(url).then((response) => response.json())
+  return {
+    props: {
+      product,
+    },
+  }
+}
+const ProductPage = ({ product }: { product: TProduct }) => {
   return (
     <Layout>
       {product == null ? null : <ProductSummary product={product} />}

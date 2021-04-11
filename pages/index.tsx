@@ -5,7 +5,7 @@ import ProductList from '@components/ProductList/ProductList'
 
 import fetch from 'isomorphic-unfetch'
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   // se ejecuta en backend con nodejs al momento de crear el componente
   let url = 'https://curso-nextjs-jjy.vercel.app/api/avo'
   let { data }: TAPIAvoResponse = await fetch(url).then((response) =>
