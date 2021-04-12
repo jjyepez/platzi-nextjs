@@ -23,7 +23,6 @@ const ProductAttributes = ({ description, ...otherAttributes }: any) => {
   ).map((item: any) => {
     return (item.strMeasure ? item.strMeasure + ', ' : '') + item.strIngredient
   })
-  console.log({ ingredients })
 
   const showKeys: any = {
     strDrink: 'Drink Name',
@@ -73,7 +72,7 @@ const ProductAttributes = ({ description, ...otherAttributes }: any) => {
             <Table.Cell>Ingredients</Table.Cell>
             <Table.Cell>
               {ingredients.map((item: any) => {
-                return <div>{item}</div>
+                return <div key={item}>{item}</div>
               })}
             </Table.Cell>
           </Table.Row>

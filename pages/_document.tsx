@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="shortcut icon" href="images/mojito.svg" type="xml/svg" />
+          <link rel="shortcut icon" href="/images/mojito.svg" type="xml/svg" />
         </Head>
         <body className="my-body-class">
           <Main />
